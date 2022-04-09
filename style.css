@@ -1,0 +1,18 @@
+h3{
+    font-size: 25px;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: sai;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sai {
+    from{box-shadow: 1px  1px  43px rgb(255, 157, 0);}
+    to{box-shadow: 1px  1px  43px rgb(2, 255, 213) ;}
+}
